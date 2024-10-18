@@ -37,20 +37,20 @@ Create a YAML file with the following structure:
 
 models:
   user:
-    - lookup: pk__in
-    - pks: [1, 4, 1003]
-    - follow-relations: ["address", "friends"]
-    - load-relations: true
+    lookup: pk__in
+    pks: [1, 4, 1003]
+    follow-relations: ["address", "friends"]
+    load-relations: true
   order:
-    - lookup: user__pk__in
-    - pks: [2, 5, 6]
-    - follow-relations: ["coupon", "address", "user"]
-    - load-relations: true
+    lookup: user__pk__in
+    pks: [2, 5, 6]
+    follow-relations: ["coupon", "address", "user"]
+    load-relations: true
   coupon:
-    - lookup: code
-    - pks: "open-source"
-    - follow-relations: []
-    - load-relations: false
+    lookup: code
+    pks: "open-source"
+    follow-relations: []
+    load-relations: false
 
 Explanation:
 
