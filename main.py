@@ -1,14 +1,14 @@
 import json
 import os
 import argparse
-from pprint import pprint
+
+import yaml
 
 import django
 from django.apps import apps
 from django.core import serializers
 from django.db.models import ForeignKey, ManyToManyField, OneToOneField
 
-import yaml
 
 arg_parser = argparse.ArgumentParser(
     prog="Record To Fixture",
