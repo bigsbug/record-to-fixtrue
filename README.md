@@ -97,4 +97,4 @@ Run the following command to generate the fixture:
 
 -  **-o**: Specify the output file name (e.g., fixture.json)
 
-- **-f**: Specify the input YAML file to generate the fixture from
+-  **-f**: Specify the input YAML file to generate the fixture from
