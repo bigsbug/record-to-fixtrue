@@ -75,7 +75,7 @@ def find_all_relationships_for_pk(target_model, pk) -> dict[list]:
         for field in model._meta.get_fields():
             if not isinstance(field, (ForeignKey, OneToOneField, ManyToManyField)):  # noqa: SIM102
                 continue
-            if field.related_model != target_model:
+            elif field.related_model != target_model:
                 continue
 
             # Search for records in this model that reference the given PK
