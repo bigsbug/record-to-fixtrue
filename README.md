@@ -1,8 +1,6 @@
-Here’s an improved version of your document for the GitHub README:
+# Record To Fixture
 
-Record To Fixture
-
-A Handy Tool to Extract and Convert Model Objects to Fixtures
+## A Handy Tool to Extract and Convert Model Objects to Fixtures
 
 Summary
 
