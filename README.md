@@ -53,7 +53,6 @@ models:
     load-relations: false
 
 Explanation:
-
 	•	models: Specify the models for which you want to create a fixture.
 	•	lookup: Define the lookup field you want to use for querying the records. This supports all Django lookup fields (e.g., pk__in, user__pk__in).
 	•	pks: Pass the values to filter the records. For example, User.objects.filter(pk__in=[1, 4, 1003]).
