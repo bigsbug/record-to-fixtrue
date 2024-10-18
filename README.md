@@ -66,7 +66,6 @@ Run the following command to generate the fixture:
 record-to-fixture -s my-project.settings -f my-file.yaml -o fixture.json
 
 CLI Options:
-
 	•	-s: Specify the project settings path
 	•	-o: Specify the output file name (e.g., fixture.json)
 	•	-f: Specify the input YAML file to generate the fixture from
