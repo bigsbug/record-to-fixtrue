@@ -89,7 +89,7 @@ models:
 
 Run the following command to generate the fixture:
 
-`enter code here`record-to-fixture -s my-project.settings -f my-file.yaml -o fixture.json
+`$ record-to-fixture -s my-project.settings -f my-file.yaml -o fixture.json`
 
 
 ##### CLI Options:
